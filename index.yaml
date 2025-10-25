@@ -3,7 +3,17 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T01:58:42.872407091-04:00"
+    created: "2025-10-25T02:08:14.213107331-04:00"
+    description: Gateway microservice (auth and user management)
+    digest: 67d75ce77e395e50e5839882233b8b8b6f98244ebbf709b2c24d14fbd3eea8bc
+    name: gateway
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-25T02:08:14.192727043-04:00"
     description: Gateway microservice (auth and user management)
     digest: fd656ab19545608c7104496c4b6afc1c0f080a6e39d7ecdf95a37448f0a0deae
     name: gateway
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T01:58:42.853688528-04:00"
+    created: "2025-10-25T02:08:14.171567246-04:00"
     description: Gateway microservice (auth and user management)
     digest: 6f7d7381901598ade8dfba32d9a2ce494059be20963fd8c0fbf48499edfa8510
     name: gateway
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-25T01:58:42.822291599-04:00"
+generated: "2025-10-25T02:08:14.152828593-04:00"
