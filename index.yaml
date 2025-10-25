@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  gateway:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-25T00:12:43.488041335-04:00"
+    description: Gateway microservice (auth and user management)
+    digest: 6f7d7381901598ade8dfba32d9a2ce494059be20963fd8c0fbf48499edfa8510
+    name: gateway
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-25T00:12:43.46879945-04:00"
