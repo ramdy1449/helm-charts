@@ -3,44 +3,34 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T03:52:09.157233156-04:00"
+    created: "2025-10-25T06:09:20.790815968-04:00"
     description: helm chart for chat application
-    digest: 39748caa14cb20d1dd42d7039854035f56c70ae4a5cf79ab65b995258876811c
+    digest: 072e05ced6e11e1e38c7eb93d8c7dc89098f199168043280f9cdb1763ed15295
     name: chat
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/chat-0.1.0.tgz
-    version: 0.1.0
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.1.3.tgz
+    version: 0.1.3
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T03:52:09.192842781-04:00"
+    created: "2025-10-25T06:09:20.809662344-04:00"
     description: Expense microservice
-    digest: d29e9c513374466f2df6fec5695ae89d05a2b10722c4373c9c511b9c7dcbd94b
+    digest: 26cd76beb42a2ccd88b32f1cfb880eb349756aefcbefef84615f444c6962f15c
     name: expense
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/expense-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: v1.0.1
-    created: "2025-10-25T03:52:09.174840994-04:00"
-    description: Expense microservice
-    digest: 37e8e04de7bcd36122e154ff58e1381355d79b77df8d4c11f95a44628fe68c48
-    name: expense
-    type: application
-    urls:
-    - https://ramdy1449.github.io/helm-charts/charts/expense-0.1.0.tgz
-    version: 0.1.0
+    - https://ramdy1449.github.io/helm-charts/charts/expense-0.1.3.tgz
+    version: 0.1.3
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T03:52:09.208668302-04:00"
+    created: "2025-10-25T06:09:20.826537571-04:00"
     description: Gateway microservice (auth and user management)
-    digest: 67d75ce77e395e50e5839882233b8b8b6f98244ebbf709b2c24d14fbd3eea8bc
+    digest: 78f97764f0e5cb88a6662113e6e9b2e90b41d6cfe164328bbeea0853be07970a
     name: gateway
     type: application
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-25T03:52:09.13051841-04:00"
+generated: "2025-10-25T06:09:20.775402062-04:00"
