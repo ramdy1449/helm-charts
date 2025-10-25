@@ -3,34 +3,34 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T06:09:20.790815968-04:00"
+    created: "2025-10-25T15:19:59.534415057-04:00"
     description: helm chart for chat application
-    digest: 072e05ced6e11e1e38c7eb93d8c7dc89098f199168043280f9cdb1763ed15295
+    digest: f93eab93d6feaa9eb7dbe4e9d70b938dc6db2ce29463dea9a1b1f6460adb84bb
     name: chat
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/chat-0.1.3.tgz
-    version: 0.1.3
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.1.1.tgz
+    version: 0.1.1
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T06:09:20.809662344-04:00"
+    created: "2025-10-25T15:19:59.546578913-04:00"
     description: Expense microservice
-    digest: 26cd76beb42a2ccd88b32f1cfb880eb349756aefcbefef84615f444c6962f15c
+    digest: d4be0bc1d3d6bce98c5d5a64f1c6b2fca6a76ca721f611adac66d183cdc46a65
     name: expense
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/expense-0.1.3.tgz
-    version: 0.1.3
+    - https://ramdy1449.github.io/helm-charts/charts/expense-0.1.1.tgz
+    version: 0.1.1
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-25T06:09:20.826537571-04:00"
+    created: "2025-10-25T15:19:59.558393329-04:00"
     description: Gateway microservice (auth and user management)
-    digest: 78f97764f0e5cb88a6662113e6e9b2e90b41d6cfe164328bbeea0853be07970a
+    digest: 91006fb51111175842b4b7bf2fc944a27c0fb8219aabd3e64efe47ebde25ebf2
     name: gateway
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.2.tgz
-    version: 0.1.2
-generated: "2025-10-25T06:09:20.775402062-04:00"
+    - https://ramdy1449.github.io/helm-charts/charts/gateway-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-10-25T15:19:59.514363098-04:00"
