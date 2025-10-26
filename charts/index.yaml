@@ -1,0 +1,75 @@
+apiVersion: v1
+entries:
+  chat:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-26T01:22:35.138449615-04:00"
+    description: helm chart for chat application
+    digest: 9a0718867b9d43011afe29eb958551cadbddfef96c9e38cc43972b89295af456
+    name: chat
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/chat-0.1.2.tgz
+    version: 0.1.2
+  expense:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-26T01:22:35.150583715-04:00"
+    description: Expense microservice
+    digest: 84d6eaa18a4f5a08b94660d346b162d6517e3eecfef484589af96cd4d67f6327
+    name: expense
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/expense-0.1.2.tgz
+    version: 0.1.2
+  gateway:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-26T01:22:35.161101547-04:00"
+    description: Gateway microservice (auth and user management)
+    digest: f7330d5920d6315565f475b83242150e0631d6f95f9244e5943a243a75f42f32
+    name: gateway
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/gateway-0.1.2.tgz
+    version: 0.1.2
+  global-chart:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-10-26T01:22:35.176417901-04:00"
+    dependencies:
+    - condition: monitoring.enabled
+      name: monitoring
+      repository: https://ramdy1449.github.io/helm-charts
+      version: 0.1.0
+    - condition: gateway.enabled
+      name: gateway
+      repository: https://ramdy1449.github.io/helm-charts
+      version: 0.1.2
+    - condition: expense.enabled
+      name: expense
+      repository: https://ramdy1449.github.io/helm-charts
+      version: 0.1.2
+    - condition: chat.enabled
+      name: chat
+      repository: https://ramdy1449.github.io/helm-charts
+      version: 0.1.2
+    description: Umbrella chart for all applications
+    digest: cad65e898066c4921739056ff5d68bbb633c067b118bfcb9401cff9928cd4981
+    name: global-chart
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/global-chart-1.0.0.tgz
+    version: 1.0.0
+  monitoring:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-10-26T01:22:35.186805185-04:00"
+    description: Helm chart for Grafana, Prometheus, and supporting exporters
+    digest: d56a7c7256fc7e2051a52249e43c98d32bcfd974004841c615431318b52ab2a7
+    name: monitoring
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/monitoring-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-10-26T01:22:35.126739767-04:00"
