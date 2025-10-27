@@ -3,7 +3,7 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-26T22:34:26.163172397-04:00"
+    created: "2025-10-27T00:34:12.498784327-04:00"
     description: helm chart for chat application
     digest: 9a0718867b9d43011afe29eb958551cadbddfef96c9e38cc43972b89295af456
     name: chat
@@ -14,7 +14,7 @@ entries:
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-26T22:34:26.180595626-04:00"
+    created: "2025-10-27T00:34:12.515341229-04:00"
     description: Expense microservice
     digest: 84d6eaa18a4f5a08b94660d346b162d6517e3eecfef484589af96cd4d67f6327
     name: expense
@@ -25,9 +25,9 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-26T22:34:26.196268038-04:00"
+    created: "2025-10-27T00:34:12.53101864-04:00"
     description: Gateway microservice (auth and user management)
-    digest: f7330d5920d6315565f475b83242150e0631d6f95f9244e5943a243a75f42f32
+    digest: b1783951531351cf6d30877f0f95b3102c3af759004780b286b21ca83f1655cf
     name: gateway
     type: application
     urls:
@@ -36,7 +36,7 @@ entries:
   global-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-26T22:34:26.218256393-04:00"
+    created: "2025-10-27T00:34:12.552516046-04:00"
     dependencies:
     - condition: monitoring.enabled
       name: monitoring
@@ -55,7 +55,7 @@ entries:
       repository: https://ramdy1449.github.io/helm-charts
       version: 0.1.2
     description: Umbrella chart for all applications
-    digest: 1ee19a2c94d727768371f457fef970fae9f3780fe029d1c662ad1d83bae69f7a
+    digest: e8df58171b4d04eab2a50d70851f0eac23ed87b87b2742ae79a0c0cd2b8356ae
     name: global-chart
     type: application
     urls:
@@ -64,7 +64,7 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-26T22:34:26.240209777-04:00"
+    created: "2025-10-27T00:34:12.566346723-04:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 207d0cb66e850ab2a0c56ecbc65fb427a1a2d281234704e2263fff125dce96e0
     name: monitoring
@@ -72,4 +72,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-26T22:34:26.146679672-04:00"
+generated: "2025-10-27T00:34:12.48134413-04:00"
