@@ -3,7 +3,21 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:37.947028415-04:00"
+    created: "2025-10-28T03:26:52.516748353-04:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.x.x
+    description: helm chart for chat application
+    digest: 93c9aad6d1b37bd535afb1d9365ea22c46b5f242a1a94bf22b686b9f7ba900a1
+    name: chat
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2025-10-28T03:26:52.469656807-04:00"
     description: helm chart for chat application
     digest: c2606ce73c88a662d88c80ef1b228730b6abc2ec6cd3c021c30df37229a8c894
     name: chat
@@ -13,7 +27,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:37.929708773-04:00"
+    created: "2025-10-28T03:26:52.45005694-04:00"
     description: helm chart for chat application
     digest: 379656debd403881822aa1e20ce56698cfb1749e179c50b345f2a347116570e6
     name: chat
@@ -24,7 +38,7 @@ entries:
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:37.989872783-04:00"
+    created: "2025-10-28T03:26:52.54769854-04:00"
     description: Expense microservice
     digest: 0d86a86ba617c9cebbb341dffde8017648c186b035eb7220b371569b8bc08aa0
     name: expense
@@ -34,7 +48,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:37.97115967-04:00"
+    created: "2025-10-28T03:26:52.532221639-04:00"
     description: Expense microservice
     digest: 4b7c75c707da6a786fe2976dd98175419d654c4a27b9718115ea9c64d4085bd7
     name: expense
@@ -45,7 +59,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:38.031919325-04:00"
+    created: "2025-10-28T03:26:52.580014923-04:00"
     description: Gateway microservice (auth and user management)
     digest: 5ac3ad86676cc73eeeb35ac4db2cf5c940ec3183c866293f4524ee3329a61723
     name: gateway
@@ -55,7 +69,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-10-28T02:31:38.007912434-04:00"
+    created: "2025-10-28T03:26:52.564272433-04:00"
     description: Gateway microservice (auth and user management)
     digest: e5ecdd808c072669df29adb7cfc378a066e592ec7f35923c696bba128fe1bbdc
     name: gateway
@@ -66,7 +80,7 @@ entries:
   global-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-28T02:31:38.094913951-04:00"
+    created: "2025-10-28T03:26:52.621309435-04:00"
     dependencies:
     - condition: monitoring.enabled
       name: monitoring
@@ -83,9 +97,9 @@ entries:
     - condition: chat.enabled
       name: chat
       repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
+      version: 0.1.4
     description: Umbrella chart for all applications
-    digest: 466465a4569d5e20bb4f45dc3f8190708c63f76507565e00437d8f7b90f8e1c4
+    digest: 90ca75b4d594d562ef67f7d023fcb1f24aabd98dede1fe08ef5df495f9f70505
     name: global-chart
     type: application
     urls:
@@ -93,7 +107,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-28T02:31:38.069880919-04:00"
+    created: "2025-10-28T03:26:52.601243131-04:00"
     dependencies:
     - condition: monitoring.enabled
       name: monitoring
@@ -121,7 +135,7 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-10-28T02:31:38.121957474-04:00"
+    created: "2025-10-28T03:26:52.637884544-04:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 207d0cb66e850ab2a0c56ecbc65fb427a1a2d281234704e2263fff125dce96e0
     name: monitoring
@@ -129,4 +143,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-28T02:31:37.912545379-04:00"
+generated: "2025-10-28T03:26:52.431529713-04:00"
