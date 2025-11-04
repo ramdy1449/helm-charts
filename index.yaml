@@ -3,7 +3,7 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.172703234-05:00"
+    created: "2025-11-04T01:30:06.191621496-05:00"
     description: helm chart for chat application
     digest: 0f6808bc00be947276c91ce6a2fba37573cb2b7fe67f156773510280861bd0b9
     name: chat
@@ -13,7 +13,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.154472158-05:00"
+    created: "2025-11-04T01:30:06.174768692-05:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -27,7 +27,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.102139403-05:00"
+    created: "2025-11-04T01:30:06.118028952-05:00"
     description: helm chart for chat application
     digest: 379656debd403881822aa1e20ce56698cfb1749e179c50b345f2a347116570e6
     name: chat
@@ -38,7 +38,7 @@ entries:
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.218959148-05:00"
+    created: "2025-11-04T01:30:06.223609223-05:00"
     description: Expense microservice
     digest: 0d86a86ba617c9cebbb341dffde8017648c186b035eb7220b371569b8bc08aa0
     name: expense
@@ -48,7 +48,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.195434661-05:00"
+    created: "2025-11-04T01:30:06.207622541-05:00"
     description: Expense microservice
     digest: 4b7c75c707da6a786fe2976dd98175419d654c4a27b9718115ea9c64d4085bd7
     name: expense
@@ -59,7 +59,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.249163793-05:00"
+    created: "2025-11-04T01:30:06.255470058-05:00"
     description: Gateway microservice (auth and user management)
     digest: 5ac3ad86676cc73eeeb35ac4db2cf5c940ec3183c866293f4524ee3329a61723
     name: gateway
@@ -69,7 +69,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2025-11-04T01:10:00.234284405-05:00"
+    created: "2025-11-04T01:30:06.239140548-05:00"
     description: Gateway microservice (auth and user management)
     digest: e5ecdd808c072669df29adb7cfc378a066e592ec7f35923c696bba128fe1bbdc
     name: gateway
@@ -80,7 +80,7 @@ entries:
   global-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-04T01:10:00.352274059-05:00"
+    created: "2025-11-04T01:30:06.294690676-05:00"
     dependencies:
     - condition: monitoring.enabled
       name: monitoring
@@ -99,34 +99,7 @@ entries:
       repository: https://ramdy1449.github.io/helm-charts
       version: 0.1.4
     description: Umbrella chart for all applications
-    digest: ebdf79c7bda1d4b09df495c2ce54ee8e0327b96ae170681b6b8b9d67d686605e
-    name: global-chart
-    type: application
-    urls:
-    - https://ramdy1449.github.io/helm-charts/charts/global-chart-1.0.6.tgz
-    version: 1.0.6
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-11-04T01:10:00.331932695-05:00"
-    dependencies:
-    - condition: monitoring.enabled
-      name: monitoring
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    - condition: gateway.enabled
-      name: gateway
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    - condition: expense.enabled
-      name: expense
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    - condition: chat.enabled
-      name: chat
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.4
-    description: Umbrella chart for all applications
-    digest: 8bf2515414542ad73037ac5b69d334cab86bfd1f4b8b1f656b86c558d792e816
+    digest: fa14338760d9d7c4919a62191f5a7b0998e998bdf68e6df34b2798323c64410c
     name: global-chart
     type: application
     urls:
@@ -134,7 +107,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-04T01:10:00.308290728-05:00"
+    created: "2025-11-04T01:30:06.275269642-05:00"
     dependencies:
     - condition: monitoring.enabled
       name: monitoring
@@ -159,64 +132,10 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/global-chart-1.0.4.tgz
     version: 1.0.4
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-11-04T01:10:00.286634886-05:00"
-    dependencies:
-    - condition: monitoring.enabled
-      name: monitoring
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.2
-    - condition: gateway.enabled
-      name: gateway
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    - condition: expense.enabled
-      name: expense
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    - condition: chat.enabled
-      name: chat
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.3
-    description: Umbrella chart for all applications
-    digest: 5945607b114fe032b90334cee76a8c259ad60dd793824917e758d2f242870a4d
-    name: global-chart
-    type: application
-    urls:
-    - https://ramdy1449.github.io/helm-charts/charts/global-chart-1.0.3.tgz
-    version: 1.0.3
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-11-04T01:10:00.268635569-05:00"
-    dependencies:
-    - condition: monitoring.enabled
-      name: monitoring
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.2
-    - condition: gateway.enabled
-      name: gateway
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.2
-    - condition: expense.enabled
-      name: expense
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.2
-    - condition: chat.enabled
-      name: chat
-      repository: https://ramdy1449.github.io/helm-charts
-      version: 0.1.2
-    description: Umbrella chart for all applications
-    digest: f6cfa4de1d670ee3bcd37feea2440f9256bc6d1ca04aa9f99fe548878b214c8a
-    name: global-chart
-    type: application
-    urls:
-    - https://ramdy1449.github.io/helm-charts/charts/global-chart-1.0.2.tgz
-    version: 1.0.2
   longhorn:
   - apiVersion: v2
     appVersion: 1.6.2
-    created: "2025-11-04T01:10:00.370355392-05:00"
+    created: "2025-11-04T01:30:06.31009771-05:00"
     description: longhorn installation
     digest: eb7e0aea18b8910e61215a7f6dbeabd6cd1f9bb9f60be579cf825e5f53a72927
     name: longhorn
@@ -227,19 +146,9 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-04T01:10:00.425358612-05:00"
+    created: "2025-11-04T01:30:06.361025833-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
-    digest: a1e78d84d782daed17cf1703f85ead1195d02fd7b831794ef732b937138eee37
-    name: monitoring
-    type: application
-    urls:
-    - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.4.tgz
-    version: 0.1.4
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-11-04T01:10:00.409370735-05:00"
-    description: Helm chart for Grafana, Prometheus, and supporting exporters
-    digest: bc2f67fc234dd0ee633dc317fa3eb262ac93ea4ad16e7f7c397e21f61f46274d
+    digest: b61b8322171147f4ae61cc95ddeeaedf0b784069cc2755e6ce69b46428876733
     name: monitoring
     type: application
     urls:
@@ -247,7 +156,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-11-04T01:10:00.39011913-05:00"
+    created: "2025-11-04T01:30:06.337782894-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 207d0cb66e850ab2a0c56ecbc65fb427a1a2d281234704e2263fff125dce96e0
     name: monitoring
@@ -255,4 +164,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-04T01:10:00.073384039-05:00"
+generated: "2025-11-04T01:30:06.097020944-05:00"
