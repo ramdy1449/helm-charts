@@ -3,12 +3,12 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-06T01:41:41.813216249-05:00"
+    created: "2026-02-06T02:03:14.281327269-05:00"
     description: Helm chart for Chat Platform
-    digest: 45aac63c1961b9ce9cdacc2b5031ffa2c6a71b60059ada26bb420a37b90708c0
+    digest: 61b89599f47aa321ef2df27082fefe011bc723a924c6e78da45038613c1ea5cf
     name: chat
     type: application
     urls:
-    - https://ramdy1449.github.io/helm-charts/charts/chat-0.2.14.tgz
-    version: 0.2.14
-generated: "2026-02-06T01:41:41.79467328-05:00"
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.2.15.tgz
+    version: 0.2.15
+generated: "2026-02-06T02:03:14.259441421-05:00"
