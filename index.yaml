@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  bank:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2026-02-06T23:51:30.75939436-05:00"
+    description: helm chart for bank application
+    digest: 7843d06e8951d46882fdeba370fbda8d824f08392599998c951247793625fc3c
+    name: bank
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/bank-0.2.8.tgz
+    version: 0.2.8
   chat:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-06T02:03:14.281327269-05:00"
+    created: "2026-02-06T23:51:30.787578154-05:00"
     description: Helm chart for Chat Platform
     digest: 61b89599f47aa321ef2df27082fefe011bc723a924c6e78da45038613c1ea5cf
     name: chat
@@ -11,4 +22,37 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/chat-0.2.15.tgz
     version: 0.2.15
-generated: "2026-02-06T02:03:14.259441421-05:00"
+  expense:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2026-02-06T23:51:30.811950853-05:00"
+    description: Expense microservice
+    digest: fa83c46aa550810d6c9c53cc5209ad1ae7f99561e9f90c539cb34366bed8e78d
+    name: expense
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/expense-0.2.12.tgz
+    version: 0.2.12
+  gateway:
+  - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2026-02-06T23:51:30.835799814-05:00"
+    description: Gateway microservice (auth and user management)
+    digest: 9dc508e0a870fb104ba09d1594d7f20f6879f6277fddf0d467cde0546accbba3
+    name: gateway
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/gateway-0.2.11.tgz
+    version: 0.2.11
+  monitoring:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-02-06T23:51:30.864053234-05:00"
+    description: Helm chart for Grafana, Prometheus, and supporting exporters
+    digest: b4210257477d8c6066c871abaa498f83c3701c614084cb8b0856f6a87604a749
+    name: monitoring
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.13.tgz
+    version: 0.1.13
+generated: "2026-02-06T23:51:30.732880561-05:00"
