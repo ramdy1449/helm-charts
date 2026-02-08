@@ -3,7 +3,7 @@ entries:
   bank:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T05:01:18.275262948-05:00"
+    created: "2026-02-08T06:45:19.549748058-05:00"
     description: helm chart for bank application
     digest: 7843d06e8951d46882fdeba370fbda8d824f08392599998c951247793625fc3c
     name: bank
@@ -14,7 +14,17 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.408491507-05:00"
+    created: "2026-02-08T06:45:19.701312661-05:00"
+    description: Helm chart for Chat Platform
+    digest: 4dd921e0e6598f1763da87667a25d0bc41395ec20ee6bfdf7007a5e45c835836
+    name: chat
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.2.22.tgz
+    version: 0.2.22
+  - apiVersion: v2
+    appVersion: v2.0.0
+    created: "2026-02-08T06:45:19.681730489-05:00"
     description: Helm chart for Chat Platform
     digest: d36147845cc3ccf4b0a347160209a0eed10c7b3860a95c45b5824417e0be343d
     name: chat
@@ -24,7 +34,7 @@ entries:
     version: 0.2.21
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.385320055-05:00"
+    created: "2026-02-08T06:45:19.661199958-05:00"
     description: Helm chart for Chat Platform
     digest: 92660fd372b16adf11ba47e747dc97c00cde77d2b7d13455163384f3118df7d1
     name: chat
@@ -34,7 +44,7 @@ entries:
     version: 0.2.20
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.367173097-05:00"
+    created: "2026-02-08T06:45:19.642006694-05:00"
     description: Helm chart for Chat Platform
     digest: 59f912ff3746ffb16bb9db3db400d2bd5b8fe68b4728bce2ef0bd2c9a4ead711
     name: chat
@@ -44,7 +54,7 @@ entries:
     version: 0.2.19
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.349241189-05:00"
+    created: "2026-02-08T06:45:19.624001311-05:00"
     description: Helm chart for Chat Platform
     digest: 3385bc5c3d40560e4a5323f1f7f00447c28d9a4e1102f1148c0d0b5fb05fb531
     name: chat
@@ -54,7 +64,7 @@ entries:
     version: 0.2.18
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.330988132-05:00"
+    created: "2026-02-08T06:45:19.605193908-05:00"
     description: Helm chart for Chat Platform
     digest: 892a68fb66cc5907ec9673a9edcc83754fe225974d142c67056570c6d521a8fc
     name: chat
@@ -64,7 +74,7 @@ entries:
     version: 0.2.17
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.312529674-05:00"
+    created: "2026-02-08T06:45:19.587759757-05:00"
     description: Helm chart for Chat Platform
     digest: 1d340e95a17b4441984953c7f5685f7cefb110eff7a3404df85a11eb5a3ae5dc
     name: chat
@@ -74,7 +84,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T05:01:18.292209321-05:00"
+    created: "2026-02-08T06:45:19.566443519-05:00"
     description: Helm chart for Chat Platform
     digest: 61b89599f47aa321ef2df27082fefe011bc723a924c6e78da45038613c1ea5cf
     name: chat
@@ -85,7 +95,7 @@ entries:
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T05:01:18.429367104-05:00"
+    created: "2026-02-08T06:45:19.719669033-05:00"
     description: Expense microservice
     digest: fa83c46aa550810d6c9c53cc5209ad1ae7f99561e9f90c539cb34366bed8e78d
     name: expense
@@ -96,7 +106,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T05:01:18.44943539-05:00"
+    created: "2026-02-08T06:45:19.734936701-05:00"
     description: Gateway microservice (auth and user management)
     digest: 9dc508e0a870fb104ba09d1594d7f20f6879f6277fddf0d467cde0546accbba3
     name: gateway
@@ -107,7 +117,7 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T05:01:18.563595243-05:00"
+    created: "2026-02-08T06:45:19.846992109-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 4d25060eee1cf28d1ae65b14792a4f584b1aa613403829e2ccc17bf64e81749e
     name: monitoring
@@ -117,7 +127,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T05:01:18.539998308-05:00"
+    created: "2026-02-08T06:45:19.826631758-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 2e864064528c64e2334aedf015434bc4c7634a3b337a065645860190dd7d0049
     name: monitoring
@@ -127,7 +137,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T05:01:18.516923957-05:00"
+    created: "2026-02-08T06:45:19.802219876-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 3b290edfce382a5c06cc94742bb28bfe94037d53fc7f840aa246f04415ac9747
     name: monitoring
@@ -137,7 +147,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T05:01:18.493476741-05:00"
+    created: "2026-02-08T06:45:19.773735812-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: cdba9b3acd20222b0d069f417e951f4295fbde6c63e880fae4e4b85d4523368a
     name: monitoring
@@ -147,7 +157,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T05:01:18.469250924-05:00"
+    created: "2026-02-08T06:45:19.751736205-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: b4210257477d8c6066c871abaa498f83c3701c614084cb8b0856f6a87604a749
     name: monitoring
@@ -155,4 +165,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.13.tgz
     version: 0.1.13
-generated: "2026-02-08T05:01:18.256698377-05:00"
+generated: "2026-02-08T06:45:19.529580215-05:00"
