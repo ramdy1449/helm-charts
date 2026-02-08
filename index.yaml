@@ -3,7 +3,7 @@ entries:
   bank:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T01:56:17.874216924-05:00"
+    created: "2026-02-08T02:39:58.901288973-05:00"
     description: helm chart for bank application
     digest: 7843d06e8951d46882fdeba370fbda8d824f08392599998c951247793625fc3c
     name: bank
@@ -14,7 +14,17 @@ entries:
   chat:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T01:56:17.91593128-05:00"
+    created: "2026-02-08T02:39:58.992320182-05:00"
+    description: Helm chart for Chat Platform
+    digest: 892a68fb66cc5907ec9673a9edcc83754fe225974d142c67056570c6d521a8fc
+    name: chat
+    type: application
+    urls:
+    - https://ramdy1449.github.io/helm-charts/charts/chat-0.2.17.tgz
+    version: 0.2.17
+  - apiVersion: v2
+    appVersion: v2.0.0
+    created: "2026-02-08T02:39:58.967176941-05:00"
     description: Helm chart for Chat Platform
     digest: 1d340e95a17b4441984953c7f5685f7cefb110eff7a3404df85a11eb5a3ae5dc
     name: chat
@@ -24,7 +34,7 @@ entries:
     version: 0.2.16
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-02-08T01:56:17.897107823-05:00"
+    created: "2026-02-08T02:39:58.934590351-05:00"
     description: Helm chart for Chat Platform
     digest: 61b89599f47aa321ef2df27082fefe011bc723a924c6e78da45038613c1ea5cf
     name: chat
@@ -35,7 +45,7 @@ entries:
   expense:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T01:56:17.931946609-05:00"
+    created: "2026-02-08T02:39:59.013809976-05:00"
     description: Expense microservice
     digest: fa83c46aa550810d6c9c53cc5209ad1ae7f99561e9f90c539cb34366bed8e78d
     name: expense
@@ -46,7 +56,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-02-08T01:56:17.950202024-05:00"
+    created: "2026-02-08T02:39:59.045913877-05:00"
     description: Gateway microservice (auth and user management)
     digest: 9dc508e0a870fb104ba09d1594d7f20f6879f6277fddf0d467cde0546accbba3
     name: gateway
@@ -57,7 +67,7 @@ entries:
   monitoring:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T01:56:18.083580178-05:00"
+    created: "2026-02-08T02:39:59.188861104-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 4d25060eee1cf28d1ae65b14792a4f584b1aa613403829e2ccc17bf64e81749e
     name: monitoring
@@ -67,7 +77,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T01:56:18.058553302-05:00"
+    created: "2026-02-08T02:39:59.159154307-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 2e864064528c64e2334aedf015434bc4c7634a3b337a065645860190dd7d0049
     name: monitoring
@@ -77,7 +87,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T01:56:18.034495078-05:00"
+    created: "2026-02-08T02:39:59.120890965-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: 3b290edfce382a5c06cc94742bb28bfe94037d53fc7f840aa246f04415ac9747
     name: monitoring
@@ -87,7 +97,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T01:56:18.010394663-05:00"
+    created: "2026-02-08T02:39:59.093976905-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: cdba9b3acd20222b0d069f417e951f4295fbde6c63e880fae4e4b85d4523368a
     name: monitoring
@@ -97,7 +107,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-02-08T01:56:17.979277302-05:00"
+    created: "2026-02-08T02:39:59.068257656-05:00"
     description: Helm chart for Grafana, Prometheus, and supporting exporters
     digest: b4210257477d8c6066c871abaa498f83c3701c614084cb8b0856f6a87604a749
     name: monitoring
@@ -105,4 +115,4 @@ entries:
     urls:
     - https://ramdy1449.github.io/helm-charts/charts/monitoring-0.1.13.tgz
     version: 0.1.13
-generated: "2026-02-08T01:56:17.855555426-05:00"
+generated: "2026-02-08T02:39:58.871955253-05:00"
